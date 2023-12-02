@@ -13,31 +13,34 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\DayOne">
-      <UniqueIdentifier>{e6ea2909-a8f3-47d8-9fd3-9cb3d2831bde}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\DayOne">
-      <UniqueIdentifier>{c1cd56e3-7578-4fac-8b25-609a8b10f490}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="DayOne\DayOne.cpp">
-      <Filter>Source Files\DayOne</Filter>
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DayTwo\DayTwo.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DayOne\DayOne.h">
-      <Filter>Header Files\DayOne</Filter>
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DayTwo\DayTwo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers.hpp">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Assets\DayOne.txt">
       <Filter>Resource Files</Filter>
     </Text>
-    <Text Include="Assets\DayOnePartTwo.txt">
+    <Text Include="Assets\DayTwo.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>

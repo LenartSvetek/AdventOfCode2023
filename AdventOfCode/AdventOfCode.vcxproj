@@ -128,14 +128,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DayOne\DayOne.cpp" />
+    <ClCompile Include="DayTwo\DayTwo.cpp" />
     <ClCompile Include="source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DayOne\DayOne.h" />
+    <ClInclude Include="DayTwo\DayTwo.h" />
+    <ClInclude Include="Helpers.hpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Assets\DayOne.txt" />
-    <Text Include="Assets\DayOnePartTwo.txt" />
+    <Text Include="Assets\DayTwo.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

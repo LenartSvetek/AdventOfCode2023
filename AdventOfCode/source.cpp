@@ -1,11 +1,11 @@
 #include <iostream>
 
-#include "DayOne/DayOne.h"
+#include "DayTwo/DayTwo.h"
 
 int main() {
 	std::cout << "Hello AoC!" << std::endl;
 
-	std::cout << calibrationValue();
+	std::cout << sumOfPossibleGamesPartTwo();
 
 	return 0;
 }
