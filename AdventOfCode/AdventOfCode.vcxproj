@@ -42,13 +42,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -128,16 +128,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DayOne\DayOne.cpp" />
+    <ClCompile Include="DayThree\DayThree.cpp" />
     <ClCompile Include="DayTwo\DayTwo.cpp" />
     <ClCompile Include="source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DayOne\DayOne.h" />
+    <ClInclude Include="DayThree\DayThree.h" />
     <ClInclude Include="DayTwo\DayTwo.h" />
     <ClInclude Include="Helpers.hpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Assets\DayOne.txt" />
+    <Text Include="Assets\DayThree.txt" />
     <Text Include="Assets\DayTwo.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
